@@ -1,0 +1,90 @@
+body{
+    background : url('../images/loginimg.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.loginHeader{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.loginHeader h1{
+    font-size: 80px;
+    color: #f685a2;
+    margin : 0px ;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+
+.loginHeader p{
+    font-size: 60px;
+    color: #f685a2;
+    margin: 0px;
+    text-transform: uppercase;
+    display : inline-block;
+}
+
+.loginHeader p:after{
+    content : '';
+    display: block;
+    height : 5px ; 
+    background: #f685a2;
+    margin : 0 auto;
+    
+}
+.loginBody{
+   margin : 0 auto;
+   width : 350px; 
+   background: rgba(0, 0, 0, 0.5);
+   padding :  50px;
+   border : 2px solid #fff;
+   border-radius: 8px;
+   
+}
+
+.loginInputContainer {
+    margin-top: 20px;
+}
+
+
+
+.loginInputContainer label{
+    display: block;
+    text-transform: uppercase;
+    font-size : 20px;
+    font-weight : bold;
+    color: #fff;
+}
+
+.loginInputContainer input{
+    height:30px;
+    width : 100%;
+    border : 2px solid #d40339;
+    font-size : 20px;
+    padding : 5px;
+    text-align: center;
+    font-style : italic;
+}
+
+
+
+.loginButton{
+    margin-top: 40px;
+    text-align: center;
+}
+.loginButton button{
+    font-size: 30px;
+   
+    padding: 10px 20px;
+    background: #f685a2;
+    border: none;
+    color: white;
+
+
+}
